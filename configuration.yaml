@@ -58,6 +58,11 @@ sun:
 # Weather prediction
 sensor:
   - platform: yr
+  - platform: speedtest
+    monitored_conditions:
+      - ping
+      - download
+      - upload
 
 # Text to speech
 tts:
