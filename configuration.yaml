@@ -66,6 +66,10 @@ tts:
 # Cloud
 cloud:
 
+device_tracker:
+  - platform: nmap_tracker
+    hosts: 192.168.1.0/24
+
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
