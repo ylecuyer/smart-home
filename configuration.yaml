@@ -63,6 +63,12 @@ sensor:
       - ping
       - download
       - upload
+  - platform: dht
+    sensor: DHT22
+    pin: 23
+    monitored_conditions:
+      - temperature
+      - humidity
 
 # Text to speech
 tts:
