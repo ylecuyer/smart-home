@@ -78,6 +78,8 @@ tts:
 cloud:
 
 device_tracker:
+  - platform: gpslogger
+    password: !secret gpslogger_password
   - platform: nmap_tracker
     hosts: 192.168.0.0/24
 
