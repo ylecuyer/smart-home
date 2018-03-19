@@ -66,6 +66,8 @@ sensor:
   - platform: dht
     sensor: DHT22
     pin: 23
+    temperature_offset: -0.9
+    humidity_offset: 10
     monitored_conditions:
       - temperature
       - humidity
